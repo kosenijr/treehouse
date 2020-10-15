@@ -25,3 +25,4 @@ if (correctGuess) {
   } else {
     console.log(`Sorry, the number was ${number}.`);
   }
+ 
