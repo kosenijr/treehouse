@@ -1,4 +1,5 @@
-// Edit the math.js file to accomplish these 4 goals:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+// Edit the math.js file to accomplish these 4 goals:
+
 // __________________________________________________________________________________________________
 
 // declare program variables
