@@ -38,9 +38,6 @@ if (num2 === 0) {
     alert("Let's do some math!");
 }
 
-// check if any of the options are not numbers
-
-
 
 // build an HTML message
 message += num1 + " + " + num2 + " = " + (num1 + num2);
