@@ -11,7 +11,7 @@ goHigh = parseInt(goHigh);
 
 // create a function w/ min and max
 function highAndLow(min, max) {
-    if ((max > min) && (max && min)) {
+    if ((max > min)) {
 
         const randInt = Math.floor(Math.random() * (max - min + 1) + min);
         console.log(randInt);
@@ -19,12 +19,12 @@ function highAndLow(min, max) {
         // Create a message displaying the random number
         document.querySelector('h1').innerHTML = `${randInt} is a random number between ${min} and ${max}.`;
         // fiX NaN statement                                                         
-    } else if (min === NaN || max === NaN) {
+    } else if (isNaN(min) || isNaN(max)) {
         console.log("You need to provide two numbers! Try again.");
         document.querySelector('h1').innerHTML = `You need to provide two numbers! Try again.`;
     } else {
         console.log(`You need to provide a number higher than ${min}. Try again!`)
-        console.log(typeof(min);
+        console.log(typeof (min));
         document.querySelector('h1').innerHTML = `You need to provide a number higher than ${min}. Try again!`;
     }
 }
@@ -32,4 +32,3 @@ highAndLow(goLow, goHigh);
 
 
 
-                                                                                                                                                     
