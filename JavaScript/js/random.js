@@ -28,5 +28,12 @@ console.log(Math.random() * 6);
 //in javascript, code runs from the inside out: compute the 'Math.random() * 6'. Then compute the content within Math.floor()
 
 // console.log(Math.floor(Math.random() * 6) + 1);
+// adding 1 makes it the minimum number that can be reached.
+// returns a number from 1 to 6.
+
 // console.log(Math.round(1.4), (Math.round(3.6)));
+// returns 1 and 4.
+
+
+
 
