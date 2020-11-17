@@ -18,11 +18,13 @@ function highAndLow(min, max) {
 
         // Create a message displaying the random number
         document.querySelector('h1').innerHTML = `${randInt} is a random number between ${min} and ${max}.`;
-    } else if ((min === NaN) || (max === NaN)) {
+        // fiX NaN statement                                                         
+    } else if (min === NaN || max === NaN) {
         console.log("You need to provide two numbers! Try again.");
         document.querySelector('h1').innerHTML = `You need to provide two numbers! Try again.`;
     } else {
         console.log(`You need to provide a number higher than ${min}. Try again!`)
+        console.log(typeof(min);
         document.querySelector('h1').innerHTML = `You need to provide a number higher than ${min}. Try again!`;
     }
 }
@@ -30,3 +32,4 @@ highAndLow(goLow, goHigh);
 
 
 
+                                                                                                                                                     
