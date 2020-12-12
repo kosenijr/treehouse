@@ -35,20 +35,18 @@ if (num2 === 0) {
 } else if (isNaN(num1) || isNaN(num2)) {
     alert(`One, or both, of the values entered is not a number. Please reload and try again.`)
 } else {
-    alert("Let's do some math!");
+    // build an HTML message
+    message += num1 + " + " + num2 + " = " + (num1 + num2);
+    message += "<br>";
+    message += num1 + " * " + num2 + " = " + (num1 * num2);
+    message += "<br>";
+    message += num1 + " / " + num2 + " = " + (num1 / num2);
+    message += "<br>";
+    message += num1 + " - " + num2 + " = " + (num1 - num2);
+
+    // write message to web page
+    document.write(message);
+
+
+
 }
-
-
-// build an HTML message
-message += num1 + " + " + num2 + " = " + (num1 + num2);
-message += "<br>";
-message += num1 + " * " + num2 + " = " + (num1 * num2);
-message += "<br>";
-message += num1 + " / " + num2 + " = " + (num1 / num2);
-message += "<br>";
-message += num1 + " - " + num2 + " = " + (num1 - num2);
-
-// write message to web page
-document.write(message);
-
-

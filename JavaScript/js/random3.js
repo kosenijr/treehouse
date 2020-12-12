@@ -20,7 +20,7 @@ if (highNumber > lowNumber) {
     console.log("You need to provide two numbers! Try again.");
     document.querySelector('h1').innerHTML = `You need to provide two numbers! Try again.`;
 } else {
-    console.log(`You need to provide a number higher than ${lowNumber}. Try again!`)
+    console.log(`You need to provide a number higher than ${lowNumber}. Try again!`);
     console.log(typeof (lowNumber));
     document.querySelector('h1').innerHTML = `You need to provide a number higher than ${lowNumber}. Try again!`;
 }
