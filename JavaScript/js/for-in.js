@@ -20,5 +20,4 @@ for (let prop in person) {
   // try using the prop reference to access each respective property value
   console.log(`${prop}: ${person[prop]}`);
 
-
 }
